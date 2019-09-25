@@ -40,13 +40,13 @@ let H2words = document.createElement("h2")
 H2words.id = "coinsInWords"
 let H2wordsContent = document.createTextNode("20 Coin Flips in Words")
 H2words.appendChild(H2wordsContent);
-document.getElementsByTagName("body")[0].appendChild(H2words);
+document.getElementsByTagName("main")[0].appendChild(H2words);
 
 let H2pics = document.createElement("h2")
 H2pics.id = "coinDisplay"
 let H2picsContent = document.createTextNode("20 Coin Flips in Images")
 H2pics.appendChild(H2picsContent);
-document.getElementsByTagName("body")[0].appendChild(H2pics);
+document.getElementsByTagName("main")[0].appendChild(H2pics);
 display20Flips()
 display20Images()
 function display20Flips() {
